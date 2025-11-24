@@ -92,7 +92,23 @@ h6,
   bottom: 45px;
   z-index: 99;
 }
+.whatsapp{
+    position: fixed;
+  /* display: none; */
+  right: 45px;
+  bottom: 100px;
+  z-index: 99;
+}
+.whatsapp i{
+    font-size: 30px;
+    padding:7px 10px;
+    background: #25D366;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
 
+}
 .top-shape::before {
   position: absolute;
   content: "";
